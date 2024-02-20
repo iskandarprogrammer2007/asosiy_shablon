@@ -1,0 +1,53 @@
+footer{
+    background-color: var(--thirdColor);
+    padding: 50px 0px;
+}
+
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__list h3{
+    color: var(--secondaryColor);
+}
+
+.footer__item{
+    color: var(--textColor);
+}
+
+.subscribe h1{
+    color: var(--secondaryColor);
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.subscribe__inputs{
+    display: flex;
+    align-items: center;
+}
+
+.subscribe__input{
+    width: 80%;
+    height: var(--h1size);
+    outline: none;
+    border: 1px solid var(--textColor);
+    color: var(--textColor);
+    background: var(--thirdColor);
+    border-radius: 10px 0px 0px 10px;
+    padding-left: var(--h1size);
+}
+
+.subscribe__btn{
+    border: 1px solid transparent;
+    border-radius: 0px 10px 10px 0px;
+    background: var(--secondaryColor);
+    color: var(--thirdColor);
+    width: 20%;
+    height: var(--h1size);
+}

@@ -1,12 +1,12 @@
 :root{
-    --primaryColor:skyblue;
+    --primaryColor:#70C174;
     --secondaryColor:white;
     --thirdColor:black;
+    --textColor:#525560;
+    --h1size:50px;
 }
 
 
 
-.dark{
-    --secondaryColor:black;
-    --thirdColor:white;
-}
+
+

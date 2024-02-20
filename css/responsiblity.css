@@ -1,0 +1,13 @@
+@media(max-width:1670px){
+    .we-do__bottom{
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .desc,.we-do__right{
+        width: 90%;
+    }
+    .we-do__right h1{
+        width: 100%;
+    }
+}
