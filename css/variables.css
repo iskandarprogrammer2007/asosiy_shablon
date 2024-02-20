@@ -1,0 +1,12 @@
+:root{
+    --primaryColor:skyblue;
+    --secondaryColor:white;
+    --thirdColor:black;
+}
+
+
+
+.dark{
+    --secondaryColor:black;
+    --thirdColor:white;
+}
