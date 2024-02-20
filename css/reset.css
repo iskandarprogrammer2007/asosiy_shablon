@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    transition: 0.4s;
 }
 
 *,*::after,*::before{

@@ -128,3 +128,24 @@ main{
     
 }
 
+.header__nav__right__btns__contact:hover{
+    background: var(--secondaryColor);
+    color: var(--thirdColor);
+}
+
+.what-we-do__btn:hover,.donate:hover,.see-more__btn:hover{
+    border-color: var(--secondaryColor);
+    background-color: var(--thirdColor);
+    color: var(--secondaryColor);
+}
+
+.learn-more__btn:hover,.volunter:hover{
+    border-color: var(--primaryColor);
+    background: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+
+.subscribe__btn:hover{
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}
