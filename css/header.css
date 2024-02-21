@@ -93,7 +93,7 @@ main{
     color: var(--secondaryColor);
 }
 
-@media(max-width:700px){
+@media(max-width:935px){
     .header__nav__right__btns__hamburger{
         display: flex;
 

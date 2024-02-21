@@ -1,24 +1,122 @@
 @media(max-width:1670px){
-    .we-do__bottom{
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .desc,.we-do__right{
-        width: 90%;
-    }
-    .we-do__right h1{
-        width: 100%;
-    }
-    .what-we-do{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+    #we-do{
+        display: none;
     }
 }
 
 @media(max-width:1450px){
     .hero__bottom{
         display: none;
+    }
+    #hero{
+        padding: 50px 0px;
+    }
+    .about__bottom__top{
+        display: none;
+    }
+}
+
+@media(max-width:1350px){
+    .about__bottom__bottom{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .logoipsum{
+        width: 20%;
+    }
+}
+
+@media(max-width:1050px){
+    .about__top{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .about__left,.about__right{
+        width: 80%;
+    }
+}
+
+@media(max-width:1200px){
+    .footer__logo,.footer__list{
+        width: 20%;
+    }
+    .subscribe{
+        width: 80%;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .events__cards{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+    .events__cards__card{
+        width: 80% !important;
+    }
+}
+
+@media(max-width:1170px){
+    .news__cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .news__cards__card{
+        width: 45% !important;
+    }
+    h1{
+        font-size: 40px !important;
+    }
+    h2{
+        font-size: 20px !important;
+    }
+    h3{
+        font-size: 15px !important;
+    }
+    p{
+        font-size: 13px !important;
+    }
+}
+
+@media(max-width:850px){
+    .donations{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .donation__left,.donation__right{
+        width: 80%;
+    }
+    .creating__cards{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .creating__cards__card{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:700px){
+    .news__cards__card{
+        width: 80% !important;
+    }
+    h1{
+        font-size: 35px !important;
+    }
+    h2{
+        font-size: 17px !important;
+    }
+    h3{
+        font-size: 13px !important;
+    }
+    p{
+        font-size: 12px !important;
     }
 }

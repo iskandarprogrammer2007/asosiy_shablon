@@ -112,6 +112,13 @@
     gap: 20px;
     width: 70%;
 }
+a:hover{
+    border-bottom: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
+}
+
+
+
 .desc-1{
     gap: 20px;
 }
@@ -240,10 +247,6 @@
     flex-direction: column;
     gap: 30px;
     margin-bottom: var(--h1size);
-}
-
-.events__cards{
-    flex-wrap: wrap;
 }
 
 .events__cards__card h2{
